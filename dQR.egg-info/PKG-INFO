@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: dQR
+Version: 1.0
+Summary: Translate string in QRcode on terminal.
+Home-page: https://github.com/RitterHou/Lilith
+Author: dshowing
+Author-email: watt109629@outlook.com
+License: GPL3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3

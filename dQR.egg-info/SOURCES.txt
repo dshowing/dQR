@@ -1,0 +1,11 @@
+README.md
+setup.py
+dQR/__init__.py
+dQR/main.py
+dQR/translate.py
+dQR.egg-info/PKG-INFO
+dQR.egg-info/SOURCES.txt
+dQR.egg-info/dependency_links.txt
+dQR.egg-info/entry_points.txt
+dQR.egg-info/requires.txt
+dQR.egg-info/top_level.txt

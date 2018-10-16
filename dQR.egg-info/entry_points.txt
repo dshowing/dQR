@@ -1,0 +1,3 @@
+[console_scripts]
+dQR = dQR.main:show
+
