@@ -1,5 +1,5 @@
 
-# Lilith
+# dQR
 
 *Translate string to QRcode on your Terminal.*
 
@@ -10,13 +10,17 @@
 * pip3
 
 ## Installation
+
 '''
 pip install dQR
 '''
 
 ## Usage
+
 'dQR [Your string]'
+
 like this
+
 '''
 dQR  http://www.sina.com
 '''
