@@ -1,29 +1,25 @@
-[![logo](logo.png)](https://github.com/RitterHou/Lilith)
 
 # Lilith
 
-_A terminal QR Code Generator._
+*Translate string to QRcode on your Terminal.*
 
-[![Build Status](https://travis-ci.org/RitterHou/Lilith.svg?branch=master)](https://travis-ci.org/RitterHou/Lilith)
-[![Code Health](https://landscape.io/github/RitterHou/Lilith/master/landscape.svg?style=flat)](https://landscape.io/github/RitterHou/Lilith/master)
-[![codecov](https://codecov.io/gh/RitterHou/Lilith/branch/master/graph/badge.svg)](https://codecov.io/gh/RitterHou/Lilith)
-[![](https://img.shields.io/badge/license-GPL-blue.svg)](https://github.com/RitterHou/Lilith/blob/master/LICENSE)
-
-Command **lilith** can help you create a QRCode.
-[![asciicast](https://asciinema.org/a/bSI9XmBlvX1zsc99pkRQt6FIj.png)](https://asciinema.org/a/bSI9XmBlvX1zsc99pkRQt6FIj)
 
 ## Requirements
 
-* python (2.7+ or 3.3+)
-* pip
+* python3
+* pip3
 
 ## Installation
+'''
+pip install dQR
+'''
 
-    pip install lilith
-
-## Example
-
-    lilith http://nosuchfield.com
+## Usage
+'dQR [Your string]'
+like this
+'''
+dQR  http://www.sina.com
+'''
 
 ## License GPL
 
