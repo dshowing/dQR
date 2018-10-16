@@ -10,11 +10,11 @@ __time__ = '2018/10/16'
 setup(
     name='dQR',
     version='1.0',
-    url='https://github.com/RitterHou/Lilith',
+    url='https://github.com/dshowing/dQR',
     author='dshowing',
     author_email='watt109629@outlook.com',
     description='Translate string in QRcode on terminal.',
-    license='GPL3',
+    license='Apache-2.0',
     packages=['dQR'],
     entry_points={
         'console_scripts': [

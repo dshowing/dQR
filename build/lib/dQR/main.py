@@ -17,6 +17,5 @@ def show():
             print('Usage: dQR [Your string]')
         else:
             text = args[1]
-
             qr = translate.QR(text)
-            print(qr)
+            print(qr.img2ascii)

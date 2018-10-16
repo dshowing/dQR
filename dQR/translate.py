@@ -27,13 +27,14 @@ class QR(object):
         qr.make(fit=True)
 
         img = qr.make_image()
-        return self.img2ascii(img)
+        return img
 
-    def img2ascii(self, image):
+    def img2ascii(self):
         """
         :param image: 图像
         :return: ASCII
         """
+        image = self.str2qr()
         max_lenth = self.STEP
         string = ''
         Im1 = Image.open(image)
@@ -49,7 +50,6 @@ class QR(object):
             elif w == width+2:
                 for i in range(0, width+2):
                     string += '██'
-
             string += '██'
             for h in range(0, height+2, max_lenth):
                 p = pix[w, h]
@@ -57,4 +57,4 @@ class QR(object):
                 string += p
             string += '██'
             string += '\n'
-        print(string)
+        return string
