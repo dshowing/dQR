@@ -11,20 +11,16 @@
 
 ## Installation
 
-'''
+```
 pip install dQR
-'''
+```
 
 ## Usage
 
-'dQR [Your string]'
+`dQR [Your string]`
 
 like this
-
-'''
+```
 dQR  http://www.sina.com
-'''
+```
 
-## License GPL
-
-Project License can be found [here](https://github.com/RitterHou/Lilith/blob/master/LICENSE).
