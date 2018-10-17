@@ -6,8 +6,8 @@
 
 ## Requirements
 
-* python3
-* pip3
+* python 2/3
+* pip
 
 ## Installation
 
