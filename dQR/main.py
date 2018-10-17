@@ -16,6 +16,6 @@ def show():
         if args[1] == '-h' or args[1] == '--help':
             print('Usage: dQR [Your string]')
         else:
-            text = args[1]
-            qr = translate.QR(text)
-            print(qr.img2ascii)
+            #text = args[1]
+            qr = translate.QR(args[1])
+            print(qr.img2ascii())
