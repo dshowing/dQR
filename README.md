@@ -1,7 +1,7 @@
 
 # dQR
 
-*Translate string to QRcode on your Terminal.*
+*Convert string to qrcode on your terminal.*
 
 
 ## Requirements
@@ -18,9 +18,6 @@ pip install dQR
 ## Usage
 
 ### Terminal
-`dQR [Your string]`
-
-like this
 ```
 dQR  http://www.sina.com
 ```
