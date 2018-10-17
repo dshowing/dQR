@@ -17,6 +17,7 @@ pip install dQR
 
 ## Usage
 
+### Terminal
 `dQR [Your string]`
 
 like this
@@ -24,3 +25,9 @@ like this
 dQR  http://www.sina.com
 ```
 
+### In python project
+```
+from dQR.dqrcode import QR
+img = QR('http://www.sina.com')
+print(img.showqr())
+```
