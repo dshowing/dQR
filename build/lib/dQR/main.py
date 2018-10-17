@@ -4,7 +4,7 @@
 
 import sys
 
-from dQR import translate
+from dQR import dqrcode
 
 
 def show():
@@ -17,5 +17,5 @@ def show():
             print('Usage: dQR [Your string]')
         else:
             #text = args[1]
-            qr = translate.QR(args[1])
-            print(qr.img2ascii())
+            qr = dqrcode.QR(args[1])
+            print(qr.showqr())

@@ -1,8 +1,8 @@
 README.md
 setup.py
 dQR/__init__.py
+dQR/dqrcode.py
 dQR/main.py
-dQR/translate.py
 dQR.egg-info/PKG-INFO
 dQR.egg-info/SOURCES.txt
 dQR.egg-info/dependency_links.txt
