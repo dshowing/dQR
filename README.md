@@ -28,3 +28,4 @@ from dQR.dqrcode import QR
 img = QR('http://www.sina.com')
 print(img.showqr())
 ```
+![qrcode](./dQR/show_png.png)
