@@ -29,6 +29,6 @@ setup(
     ],
     install_requires=[
         'qrcode==5.3',
-        'Pillow==4.2.1'
+        'Pillow==9.0.1'
     ],
 )
